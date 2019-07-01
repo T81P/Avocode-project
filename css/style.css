@@ -1,0 +1,80 @@
+/*Global*/
+/*Header*/
+body {
+  margin: 0;
+}
+
+.container-fluid {
+  background-image: url(/images/Background_Image.png);
+  background-size: cover;
+  width: 1400px;
+  height: 700px;
+}
+
+.nav-bar {
+  padding-top: 73px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-align: start;
+      align-items: flex-start;
+}
+
+.nav-bar .brand {
+  float: left;
+  font-size: 26px;
+  line-height: 41px;
+  letter-spacing: 1.3px;
+  font-weight: 400;
+}
+
+.menu-items {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.menu-items li {
+  display: inline-block;
+  padding: 0 20px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 41px;
+  text-transform: uppercase;
+}
+
+.home {
+  position: relative;
+  text-align: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  top: 90px;
+  color: #ffffff;
+}
+
+.home p {
+  font-size: 75px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1.88px;
+  margin: 52px 0 59px 0;
+}
+
+.home-title {
+  font-size: 40px;
+  font-style: italic;
+  letter-spacing: -1px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #fed136;
+  padding: 25px 51px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+}
+/*# sourceMappingURL=style.css.map */
