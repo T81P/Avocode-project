@@ -1,5 +1,6 @@
 /*Global*/
-
+$font-header: 'Montserrat', sans-serif;
+$font-text: 'Roboto Slab', serif;
 /*Header*/
 body {
 	margin: 0;
@@ -11,7 +12,7 @@ body {
 	height: 700px;
 }
 .nav-bar {
-	padding-top: 73px;
+	padding-top: 53px;
 	display: flex;
 	justify-content: space-around;
 	align-items: flex-start;
@@ -19,7 +20,6 @@ body {
 			float: left;
 			font-size: 26px;
 			line-height: 41px;
-			letter-spacing: 1.3px;
 			font-weight: 400;
 		}
 }
@@ -34,6 +34,7 @@ body {
 			font-size: 14px;
 			font-weight: 400;
 			line-height: 41px;
+			font-family: $font-header;
 			text-transform: uppercase;
 		}
 }
@@ -41,20 +42,20 @@ body {
 	position: relative;
 	text-align: center;
 	justify-content: center;
-	top: 120px;
+	top: 140px;
 	color: #ffffff;
 		p {
+			font-family: $font-header;
 			font-size: 75px;
 			font-weight: 700;
 			text-transform: uppercase;
-			letter-spacing: -1.88px;
 			margin: 52px 0 59px 0;
 		}
 }
 .home-title {
 	font-size: 40px;
 	font-style: italic;
-	letter-spacing: -1px;
+	font-family: $font-text;
 	margin: 0;
 }
 .button {
@@ -65,7 +66,9 @@ body {
 	color: #ffffff;
 	font-size: 18px;
 	font-weight: 700;
+	font-family: $font-header;
 } 
+/*service*/
 .service {
 	margin-bottom: 80px;	
 		.service-title {
@@ -73,8 +76,8 @@ body {
 			font-size: 40px;
 			font-weight: 700;
 			line-height: 75px;
+			font-family: $font-header;
 			text-transform: uppercase;
-			letter-spacing: -1px;
 			padding: 0px;
 			margin-top: 120px;
 			text-align: center;
@@ -84,6 +87,7 @@ body {
 	color: #777777;
 	font-size: 16px;
 	font-style: italic;
+	font-family: $font-text;
 	text-align: center;
 }
 .card-image {
@@ -116,6 +120,7 @@ body {
 			font-size: 18px;
 			font-weight: 700;
 			line-height: 75px;
+			font-family: $font-header;
 			letter-spacing: -0.45px;
 			color: #222222;
 		}
@@ -124,41 +129,74 @@ body {
 	color: #777777;
 	font-size: 14px;
 	font-weight: 400;
-	letter-spacing: -0.35px;
+	font-family: $font-text;
 }
+/*portfolio*/
 .portfolio {
 	text-align: center;
 	.container {
 		background-color: #f7f7f7;
 			.portfolio-main-title {
 				color: #222222;
-				font-family: Montserrat;
+				font-family: $font-header;
 				font-size: 40px;
 				font-weight: 700;
 				line-height: 75px;
 				text-transform: uppercase;
-				letter-spacing: -1px;
 			}
 	}
 }
 .portfolio-main-subtitle {
 	color: #777777;
-	font-family: "Droid Serif";
+	font-family: $font-text;
 	font-size: 16px;
 	font-style: italic;
 	font-weight: normal;
 }
 .portfolio-title {
 	color: #333333;
-	font-family: Montserrat;
+	font-family: $font-header;
 	font-size: 18px;
 	font-weight: 700;
-	letter-spacing: -0.45px;
 }
 .portfolio-subtitle {
 	color: #737373;
-	font-family: Montserrat;
+	font-family: $font-text;
 	font-size: 14px;
 	font-style: italic;
 	font-weight: normal;
+}
+/*Footer*/
+.row {
+	display: flex;
+		.copyright {
+			position: relative;
+			left: 100px;
+			color: #555555;
+			font-family: $font-header;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 22px;
+		}
+}
+.list-content {
+	justify-content: space-around;
+		.list {
+			.list-item {	
+				margin: 0;
+				padding: 0 5px;
+				list-style-type: none;
+				display: inline-block;
+				
+			}
+		}
+}
+.list-sub-logo {
+	position: relative;
+	right: 30px;
+	bottom: 10px;
+
+	}
+.copyright-logo {
+	padding: 0 5px;
 }
